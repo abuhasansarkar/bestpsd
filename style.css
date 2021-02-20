@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*header-area*/
+
+.header-area {
+    background: #232322;
+}
+
+.manu-area .main-manu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 30px 0;
+}
+
+.manu-area .main-manu li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.manu-area .main-manu li a:hover {
+    color: #ff0000;
+}
+
+
+/*header-area*/
+
+
+/*welcome-area*/
+
+.welcome-area {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.78)), url(img/slider1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-area {
+    width: 70%;
+    margin: auto;
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.main-area h1 {
+    color: #ff0000;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.main-area p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main-area .header-btn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px 40px;
+    color: #ffffff;
+    background: #ff0000;
+}
+
+.main-area .header-btn {
+    margin: 100px 0;
+}
+
+
+/*welcome-area*/
+
+
+/*about-us*/
+
+.aboutus-area {
+    padding-top: 50px;
+}
+
+.row h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.row h2 span {
+    color: #ff0000;
+}
+
+.row .devidor {
+    width: 200px;
+    height: 3px;
+    margin: auto;
+    background: #ff0000;
+}
+
+.content-area .row {
+    padding: 50px 0;
+}
+
+.col-lg-8 .right-site {
+    padding: 150px 20px 10px 20px;
+}
+
+.col-lg-8 .right-site h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.right-site .sec-btn {
+    margin-top: 50px;
+}
+
+.right-site .sec-btn a {
+    padding: 15px 40px;
+    background: #ff0000;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/*about-us*/
+
+
+/*what about-us*/
+
+.what-aboutus {
+    background: #464645;
+}
+
+.what-aboutus h2 {
+    margin-bottom: 30px;
+}
+
+.main-area .icon i {
+    border: 1px solid #ffffff;
+    padding: 30px;
+    font-size: 50px;
+    border-radius: 10px;
+    color: #ff0000;
+}
+
+
+/*what about-us*/
+
+
+/*our services area*/
+
+.services-area {
+    padding: 100px;
+}
+
+.top-site h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.top-site h2 span {
+    color: #ff0000;
+}
+
+.top-site .devidor {
+    width: 200px;
+    margin: auto;
+    height: 3px;
+    background: #ff0000;
+}
+
+.row .col-lg-4 {
+    margin: 50px 0;
+}
+
+.row .col-lg-4 i {
+    color: #ff0000;
+    font-size: 40px;
+}
+
+
+/*our services area*/
+
+
+/*our skill area*/
+
+.main-section .top-site h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.main-section .top-site h2 span {
+    color: #ff0000;
+}
+
+.main-section .top-site .devidor {
+    width: 200px;
+    margin: auto;
+    height: 3px;
+    background: #ff0000;
+}
+
+.main-section .row {
+    padding: 50px 0;
+}
+
+.all-progress h6 {
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.all-progress .progress .progress-bar1 {
+    width: 90%;
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+.all-progress .progress .progress-bar2 {
+    width: 80%;
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+.all-progress .progress .progress-bar3 {
+    width: 70%;
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+.all-progress .progress .progress-bar4 {
+    width: 95%;
+    color: #ffffff;
+    background-color: #ff0000;
+}
+
+
+/*our skill area*/
+
+
+/* our portfolio area  */
+
+.main-portfolio .top-site h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.main-portfolio .top-site h2 span {
+    color: #ff0000;
+}
+
+.main-portfolio .top-site .devidor {
+    width: 200px;
+    margin: auto;
+    height: 3px;
+    background: #ff0000;
+}
+
+
+/* our portfolio area  */
+
+
+/* main teem area  */
+
+.main-teem-area {
+    padding: 100px;
+}
+
+.main-teem-area .top-site h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 30px 0;
+    display: inline-block;
+}
+
+.main-teem-area .top-site h2 span {
+    color: #ff0000;
+}
+
+.main-teem-area .top-site .devidor {
+    width: 200px;
+    margin: auto;
+    height: 3px;
+    background: #ff0000;
+    margin-bottom: 30px;
+}
+
+.our-team {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.our-team img {
+    width: 100%;
+    height: auto;
+}
+
+.our-team .team-content {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #7851a9 0%, #ffd700 100%);
+    padding-top: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: all 0.3s cubic-bezier(0.52, 1.64, 0.37, 0.66) 0s;
+}
+
+.our-team:hover .team-content {
+    transform: translateY(0);
+}
+
+.our-team .title {
+    display: block;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.our-team .post {
+    display: block;
+    font-size: 17px;
+    color: #fff;
+}
+
+.our-team .social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.our-team .social li {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.our-team .social li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 20px;
+    color: #4c5462;
+    margin-right: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s ease 0s;
+}
+
+.our-team .social li a:hover {
+    background: linear-gradient(to right, #7851a9 0%, #ffd700 100%);
+    color: #fff;
+}
+
+@media only screen and (max-width: 990px) {
+    .our-team {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* main teem area  */
